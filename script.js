@@ -1,5 +1,5 @@
 function buttonIsPressed() {
-  console.log("It works!!")
+  console.log("It works!!!")
 }
 
 //$("button").onclick() {
