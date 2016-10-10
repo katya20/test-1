@@ -1,9 +1,7 @@
 $("input").keydown(onKeydown)
 
-function onKeydown(e) {
-enter.keydown(function(e) {
-  e.keyCode == 13
-  console.log(enter.)
+function onKeydown(e,) {
+  e.keyCode == 13;
   console.log("yay")
-})
+}
 
