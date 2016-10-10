@@ -1,8 +1,8 @@
 $("input").keydown(onKeydown)
 
 function onKeydown(e) {
-  console.log(input.value)
-  e.keyCode == 13;
+  var u = e.keyCode == 13;
+  console.log(u)
   console.log("yay")
 }
 
