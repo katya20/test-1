@@ -1,6 +1,7 @@
+e.keycode == 13
 
 
-function enterPressed() {
+function enterPressed(e) {
   
   console.log("yay")
 }
