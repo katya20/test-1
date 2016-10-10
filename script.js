@@ -1,14 +1,21 @@
+//
+//function buttonIsPressed() {
+//  console.log("It works!!!") 
+//}
+//
+//$("#button").click(buttonIsPressed)
 
-function buttonIsPressed() {
-  console.log("It works!!!") 
+function whenClicked() {
+  console.log("function run")
+  return "1111"
 }
 
-$("#button").click(buttonIsPressed)
+var a = whenClicked()
+var b = whenClicked
+
+console.log(a.toString())
+console.log(b.toString())
 
 
-
-//$("button").onclick() {
-//  console.log("You pressed me!!!")
-//}
 
 
