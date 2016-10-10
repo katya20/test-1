@@ -5,7 +5,8 @@ function buttonIsPressed() {
   
 }
 
-$("button").onclick(buttonIsPressed)
+$("button").click(buttonIsPressed())
+
 //$("button").onclick() {
 //  console.log("You pressed me!!!")
 //}
