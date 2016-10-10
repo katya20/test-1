@@ -1,14 +1,8 @@
-function hi(name, name2) {  
-  console.log("hi " + name + name2)
+function doStuff(name) {
+  console.log(name)
 }
 
-var name = "alex"
-var
+doStuff("david")
 
-hi()
+doStuff(doStuff)
 
-function nameLength() {
-  console.log(name.length);
-}
-
-nameLength()
