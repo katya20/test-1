@@ -4,6 +4,8 @@ function hi(name, name2) {
 
 hi()
 
-function nameLength
+function nameLength() {
+  console.log(name.length);
+}
 
-function nameLength()
+nameLength()
