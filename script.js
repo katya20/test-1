@@ -1,5 +1,5 @@
 function doStuff(name) {
-  console.log(name)
+  console.log(name.toString())
 }
 
 doStuff("david")
